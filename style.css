@@ -551,3 +551,14 @@ form label{
     color: var(--rosa);
     font-size: 15px;
 }
+
+.campo-data{
+    width: 100% !important;
+    height: 60px;
+    padding: 0 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    display: block;
+    box-sizing: border-box;
+}
