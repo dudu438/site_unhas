@@ -510,3 +510,8 @@ footer p{
         transform:translateY(0);
     }
 }
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
