@@ -273,8 +273,6 @@ button{
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 12px;
-    appearance: none;
-    -webkit-appearance: none;
 }
 
 .campo-data::-webkit-calendar-picker-indicator{
@@ -550,15 +548,4 @@ form label{
     font-weight: 600;
     color: var(--rosa);
     font-size: 15px;
-}
-
-.campo-data{
-    width: 100% !important;
-    height: 60px;
-    padding: 0 15px;
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    display: block;
-    box-sizing: border-box;
 }
