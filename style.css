@@ -442,6 +442,11 @@ footer p{
         line-height: 1.2;
     }
 
+    .campo-data{
+        width: 100% !important;
+        min-width: 100%;
+    }
+
     .hero h2{
         font-size:2rem;
     }
