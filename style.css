@@ -545,9 +545,16 @@ footer p{
 
 form label{
     display: block;
-    margin-bottom: 8px;
-    margin-top: 8px;
+    margin-top: 25px;
+    margin-bottom: 10px;
     font-weight: 600;
     color: var(--rosa);
     font-size: 15px;
 }
+
+.form-divider{
+    height: 1px;
+    background: #f0d9e4;
+    margin: 20px 0;
+}
+
