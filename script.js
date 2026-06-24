@@ -120,3 +120,14 @@ setTimeout(() => {
 });
 
 carregarAgendamentos();
+
+const campoData = document.getElementById("data");
+const fakePlaceholder = document.getElementById("fake-placeholder");
+
+campoData.addEventListener("change", () => {
+    if (campoData.value) {
+        fakePlaceholder.style.display = "none";
+    } else {
+        fakePlaceholder.style.display = "block";
+    }
+});

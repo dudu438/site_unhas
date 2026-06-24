@@ -538,8 +538,26 @@ footer p{
     height: 100vh;
 }
 
-label{
-    font-weight: 600;
-    margin-bottom: 8px;
-    display: block;
+.date-wrapper{
+    position: relative;
+    width: 100%;
+}
+
+#fake-placeholder{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.campo-data{
+    width: 100%;
+    height: 56px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: white;
 }
