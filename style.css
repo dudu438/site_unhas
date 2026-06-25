@@ -23,7 +23,11 @@
 /* BODY */
 
 body{
-background-image: url("img/fundo2.png");
+    background:linear-gradient(
+        180deg,
+        #fff7fa 0%,
+        #fde9f1 100%
+    );
     color:var(--texto);
 }
 
