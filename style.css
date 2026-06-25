@@ -104,7 +104,7 @@ nav a:hover::after{
 
     padding:50px 20px;
 
-    background: url("fundo.png");
+    background-image: url("img/fundo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
