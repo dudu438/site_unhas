@@ -11,7 +11,7 @@
 /* VARIÁVEIS */
 
 :root{
-    --rosa:#D60063;
+    --rosa:#d63384;
     --rosa-claro:#f8d7e5;
     --rosa-bg:#fff2f7;
     --dourado:#d4af37;
@@ -104,7 +104,7 @@ nav a:hover::after{
 
     padding:50px 20px;
 
-    background-image: url("img/fundo4.png");
+    background-image: url("img/fundo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -352,7 +352,7 @@ button:hover{
 /* FOOTER */
 
 footer{
-    background-image: url("img/fundo4.png");
+    background-image: url("img/fundo.png");
 
     color:white;
     text-align:center;
