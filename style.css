@@ -104,15 +104,10 @@ nav a:hover::after{
 
     padding:50px 20px;
 
-    background:
-        linear-gradient(
-            rgba(214,51,132,.75),
-            rgba(214,51,132,.75)
-        ),
-        url("img/capa.jpg");
-
-    background-size:cover;
-    background-position:center;
+    background: url("fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
     color:white;
 }
