@@ -352,11 +352,7 @@ button:hover{
 /* FOOTER */
 
 footer{
-    background:linear-gradient(
-        90deg,
-        var(--rosa),
-        #b1266b
-    );
+    background-image: url("img/fundo.png");
 
     color:white;
     text-align:center;
